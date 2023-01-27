@@ -11,8 +11,8 @@ message = max 5000 chars
 
 ## Setup
 
-In the index.html file, replace the hidden input value with the name EMJINX-API-KEY with your API Key.
+In the index.html file, replace the hidden input value, named EMJINX-API-KEY, with your API Key.
 
 ## Run
 
-After adding your API Key to the index.html file, open the file in your browser, fill out the from, and press the Submit button.
+After adding your API Key to the index.html file, open the file in your browser, fill out the form, and press the Submit button.
