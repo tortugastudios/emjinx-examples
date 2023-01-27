@@ -8,4 +8,12 @@ Emjinx is a SaaS product that allows owners of static websites and landing pages
 
 ## REST API
 
+There are numerous ways to implement this using different technologies, here are some of the most common, that will be easy to add to any website:
+
+### HTML Form
+
+Uses only an HTML form with a POST action to the API. While this is not the recommended implementation, it can be used as a quick template to get started.
+
+### Basic
+
 ## GraphQL

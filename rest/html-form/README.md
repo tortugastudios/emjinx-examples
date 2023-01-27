@@ -1,4 +1,4 @@
-# Emjinx Example - Basic
+# Emjinx Example - HTML Form
 
 This example uses only an HTML form with a POST action to the Emjinx REST API. While this is not the recommended implementation, it can be used as a quick template to get started.
 
