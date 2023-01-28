@@ -11,14 +11,11 @@ $(document).ready(function () {
 
     $.ajax({
       type: 'POST',
-      url: 'http://0.0.0.0:8000/api/rest/',
+      url: 'http://0.0.0.0:8000/rest/',
       headers: {
         'EMJINX-API-KEY': 'your-emjinx-api-key',
-        'Content-Type': 'application/json',
       },
-      // data: formData,
-      data: JSON.stringify(formData),
-      dataType: 'json',
+      data: formData,
       encode: true,
     }).done(function (data) {
       console.log(data)

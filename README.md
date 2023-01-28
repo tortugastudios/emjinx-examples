@@ -14,6 +14,12 @@ There are numerous ways to implement this using different technologies, here are
 
 Uses only an HTML form with a POST action to the API. While this is not the recommended implementation, it can be used as a quick template to get started.
 
-### Basic
+### jQuery and AJAX
+
+This example uses an HTML form, with jQuery and AJAX, to send a POST request to the Emjinx REST API.
+
+### JavaScript and Fetch API
+
+This example uses an HTML form, with vanilla JavaScript and Fetch API, to send a POST request to the Emjinx REST API.
 
 ## GraphQL
