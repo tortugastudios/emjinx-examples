@@ -2,12 +2,19 @@
 
 This example uses only an HTML form with a POST action to the Emjinx REST API. While this is not the recommended implementation, it can be used as a quick template to get started.
 
+## Emjinx REST API Endpoint:
+
+https://api.emjinx.com/rest/
+
 ## Fields
+
+### Form
 
 - email - required, max 254 chars
 - name - max 200 chars
 - phoneNumber - max 20 chars
-- message = max 5000 chars
+- message - max 5000 chars
+- EMJINX-API-KEY - your Emjinx API Key
 
 ## Setup
 
