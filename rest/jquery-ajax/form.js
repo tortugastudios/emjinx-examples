@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: 'POST',
-      url: 'http://0.0.0.0:8000/rest/',
+      url: 'https://api.emjinx.com/rest/',
       headers: {
         'EMJINX-API-KEY': 'your-emjinx-api-key',
       },

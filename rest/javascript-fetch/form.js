@@ -1,7 +1,7 @@
 const submitForm = async () => {
   const data = new FormData(document.getElementById('contact'))
   try {
-    const response = await fetch('http://0.0.0.0:8000/rest/', {
+    const response = await fetch('https://api.emjinx.com/rest/', {
       method: 'POST',
       headers: {
         'EMJINX-API-KEY': 'your-emjinx-api-key',

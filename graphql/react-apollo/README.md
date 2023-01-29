@@ -1,6 +1,6 @@
 # Emjinx Example - React and Fetch
 
-This example uses a form built with React, along with Apollo, to send a POST request to the Emjinx GraphQL API. This can be useful if you are already using GraphQL on your website. However, if you are not, it would be easier to implement the REST API. Check the REST API examples for more details.
+This example uses a form built with React, along with Apollo, to send a POST request to the Emjinx GraphQL API. This can be useful if you are already using GraphQL on your website. However, if you are not, it would be easier to implement with the REST API. Check the REST API examples for more details.
 
 The form components are styled with Styled Components, and form validation is also included.
 

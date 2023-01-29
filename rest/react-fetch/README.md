@@ -1,4 +1,4 @@
-# Emjinx Example - React and Fetch
+# Emjinx Example - React and Fetch API
 
 This example uses a form built with React, along with the Fetch API, to send a POST request to the Emjinx REST API.
 

@@ -1,8 +1,8 @@
-# Emjinx Example - JavaScript and Fetch
+# Emjinx Example - JavaScript and Fetch API
 
-This example uses an HTML form, with vanilla JavaScript and Fetch API, to send a POST request to the Emjinx REST API.
+This example uses an HTML form, with plain JavaScript and the Fetch API, to send a POST request to the Emjinx REST API.
 
-This is the recommended implementation when not using React.
+This is the recommended implementation when using plain JavaScript.
 
 ## Emjinx REST API Endpoint:
 
