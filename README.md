@@ -6,6 +6,23 @@ Examples of how to use Emjinx's GraphQL and REST API, to implement your contact 
 
 Emjinx is a SaaS product that allows owners of static websites, and landing pages, to implement the contact form on their site. When a visitor sends them a message, through their contact form, an email notification will be sent, containing the details of the message. Premium Plan users can also configure a custom reply message, to be sent to the visitor, so that they know that their message has been received. For more information, visit our homepage: https://emjinx.com
 
+### Data
+
+#### Form
+
+The following are the fields that can be in your contact form.
+
+- email - required, max 254 chars
+- name - max 200 chars
+- phoneNumber - max 20 chars
+- message - max 5000 chars
+
+#### Header
+
+This is required to confirm your account with Emjinx.
+
+- EMJINX-API-KEY - your API Key from the Emjinx app
+
 ## REST API
 
 There are numerous ways to implement this using different technologies, here are some of the most common, that will be easy to add to any website:
@@ -34,4 +51,4 @@ Use a form built with React, along with the Axios, to send a POST request to the
 
 ### React and Apollo
 
-Use a form built with React, along with the Apollo, to send a POST request to the Emjinx REST API.
+Use a form built with React, along with Apollo, to send a POST request to the Emjinx GraphQL API.
