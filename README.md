@@ -4,7 +4,7 @@ Examples of how to use Emjinx's GraphQL and REST API, to implement contact forms
 
 ## Description
 
-Emjinx is a SaaS product that allows owners of static websites, and landing pages, to implement contact forms on their sites. When a visitor sends them a message, through their contact form, an email notification will be sent, containing the details of the message. Premium Plan users can also configure a custom reply message, to be sent to the visitor, so that they know that their message has been received. For more information, visit our homepage: https://emjinx.com
+Emjinx is an SaaS product for implementing contact forms on websites and landing pages. When a site visitor sends a message, through the contact form, an email notification will be sent to the site owners, containing the details of the message. Premium Plan users can also configure a custom reply message, to be sent to the visitor, so that they know that their message has been received. For more information, visit our homepage: https://emjinx.com
 
 ### Data
 
