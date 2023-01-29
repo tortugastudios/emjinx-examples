@@ -2,6 +2,8 @@
 
 This example uses an HTML form, with vanilla JavaScript and Fetch API, to send a POST request to the Emjinx REST API.
 
+This is the recommended implementation when not using React.
+
 ## Emjinx REST API Endpoint:
 
 https://api.emjinx.com/rest/
