@@ -1,3 +1,2 @@
 .DS_Store
-./rest/react-fetch/node_modules/*
-rest/react-fetch/node_modules/*
+**/node_modules/*

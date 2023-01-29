@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Emjinx Example - React and Fetch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This example uses a form built with React, along with the Fetch API, to send a POST request to the Emjinx REST API.
 
-## Available Scripts
+The form components are styled with Styled Components, and form validation is also included.
 
-In the project directory, you can run:
+## Emjinx REST API Endpoint:
 
-### `npm start`
+https://api.emjinx.com/rest/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React: https://reactjs.org
 
-### `npm test`
+Create React App: https://create-react-app.dev
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Styled Components: https://styled-components.com
 
-### `npm run build`
+## Fields
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Form
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- email - required, max 254 chars
+- name - max 200 chars
+- phoneNumber - max 20 chars
+- message - max 5000 chars
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Header
 
-### `npm run eject`
+- EMJINX-API-KEY - your API Key from the Emjinx app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create a .env file in the root directory with the following environment variables:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    REACT_APP_EMJINX_API_ENDPOINT=https://api.emjinx.com/rest/
+    REACT_APP_EMJINX_API_KEY=your-emjinx-api-key
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies:
 
-## Learn More
+    $ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    $ npm start
