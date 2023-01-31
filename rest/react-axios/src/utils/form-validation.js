@@ -1,4 +1,4 @@
-const form_validation = (
+const formValidation = (
   values,
   requiredFields = [],
   maxLengthFields = [],
@@ -41,4 +41,4 @@ const form_validation = (
   return errors
 }
 
-export default form_validation
+export default formValidation

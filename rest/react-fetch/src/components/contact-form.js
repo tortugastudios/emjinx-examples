@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import TextArea from './text-area'
 import TextField from './text-field'
 
-import form_validation from '../utils/form_validation'
+import formValidation from '../utils/form-validation'
 
 const REQUIRED_FIELDS = ['name', 'email', 'message']
 
@@ -49,7 +49,7 @@ const ContactForm = () => {
   }
 
   const handleSubmit = async () => {
-    const n_formErrors = form_validation(
+    const n_formErrors = formValidation(
       values,
       REQUIRED_FIELDS,
       MAX_LENGTH_FIELDS,
